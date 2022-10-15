@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact Details</h1>
+     <p>Email : harshmakwana@gmail.com</p>
+     <p>Cell NO : <strong>1234567890</strong></p>
+     <form class="" action="index.html" method="post">
+        <label>Your Name:</label>
+        <input type="text" name="" value=""><br><br>
+        <input type="color" name="color_picker"><br><br>
+        <label>password:</label>
+        <input type="password"><br>
+        <input type="checkbox" name="">
+         <label>Do you want to sign up to the email list?</label><br><br>
+         <label for="picture">Profile</label>
+         <input type="file" id="picture" name="picture" accept="image/png, image/jpeg"><br><br>
+        <input type="submit" name="submit"><br><br>
+        <!-- How to use datalist -->
+        <label for="ice-cream-choice">datalist</label>
+           <input list="ice-cream-flavor" id="ice-cream-choice" name="ice-cream-choice">
+        <datalist id="ice-cream-flavor">
+                <option value="chocolate">    
+                <option value="coconut">
+                <option value="mint">
+                <option value="strawberry">
+                <option value="vanilla">
+                </datalist>
+
+                <!-- How to use fieldset -->
+                <fieldset>
+                    <legend>Choose your favourite monster</legend>
+                    <input type="radio" name="monster" id="kraken">
+                    <label for="kraken">Kraken</label>
+                    <input type="radio" name="monster" id="sasquatch">
+                    <label for="sasquatch">Sasquatch</label>
+                    <input type="radio" name="monster" id="mothan">
+                    <label for="mothan">Mothan</label>
+                </fieldset>
+
+                <!-- How to use meter -->
+                <label for="fuel">Fuel Level : </label>
+                <meter id="fuel"
+                            min="0" max="100"
+                            low="30" high="60" optimum="75"
+                            value="80"></meter>
+     </form>
+
+     <!-- How to use optgroup -->
+                  <label for="movie-select">Choose a Movie</label>
+                  <select name="" id="movie-select">
+                    <optgroup label="Action">
+                        <option>RRR</option>
+                        <option>Bahubali</option>
+                        <option>Rebel</option>
+                    </optgroup>
+                    <optgroup label="Love">
+                        <option>Siddat</option>
+                        <option>Ranjanaa</option>
+                        <option>Jab We Met</option>
+                    </optgroup>
+                  </select><br>
+                  <br>
+                  <form>
+                  <input type="text"><br>
+                  <input type="submit"><br>
+                  <input type="file"><br>
+                  <input type="date"><br>
+                  <input type="radio"><br>
+                  <input type="range"><br>
+                </form>
+</body>
+</html>
